@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/rounded_bright">
+
+    <com.android.instaprofilegrabber.RTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="نگارش تازه ای از برنامه منتشر شده است :)" />
+
+    <com.android.instaprofilegrabber.RTextView
+        android:id="@+id/ua_right_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/air_button"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="به روز می کنم"/>
+
+    <com.android.instaprofilegrabber.RTextView
+        android:id="@+id/ua_later"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/air_button"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="بعدا!"/>
+</LinearLayout>

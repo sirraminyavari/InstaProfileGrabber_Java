@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:padding="10dp"
+    android:background="@drawable/rounded_bright">
+
+    <com.android.instaprofilegrabber.RTextView
+        android:id="@+id/rate_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.android.instaprofilegrabber.RTextView
+            android:id="@+id/rate_later"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/air_button"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="12sp"
+            android:textColor="#66000000"
+            android:text="بعدا"/>
+        <com.android.instaprofilegrabber.RTextView
+            android:id="@+id/rate_yes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@drawable/air_button"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="بزن بریم!"/>
+        <com.android.instaprofilegrabber.RTextView
+            android:id="@+id/rate_already_done"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/air_button"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="12sp"
+            android:textColor="#66000000"
+            android:text="امتیاز داده ام"/>
+    </LinearLayout>
+</LinearLayout>

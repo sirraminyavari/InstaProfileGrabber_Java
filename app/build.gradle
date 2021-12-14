@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.android.instaprofilegrabber"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 10035
+        versionName "3.4.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestImplementation files('libs/adad-client-3.1.jar')
+    api 'com.android.support:appcompat-v7:27.0.2'
+    api 'com.android.support:percent:27.0.2'
+    api 'com.android.support:support-v4:27.0.2'
+    api 'com.android.support:design:27.0.2'
+    testImplementation 'junit:junit:4.12'
+    api files('libs/picasso-2.5.2.jar')
+    api files('libs/glide-full-4.0.0.jar')
+    api 'com.zarinpal:purchase:0.0.3-beta'
+    api 'co.ronash.android:pushe-base:1.4.0'
+    api 'com.google.android.gms:play-services-gcm:11.8.0'
+    api 'com.google.android.gms:play-services-location:11.8.0'
+}

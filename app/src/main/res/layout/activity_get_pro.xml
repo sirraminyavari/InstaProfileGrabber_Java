@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_get_pro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="com.android.instaprofilegrabber.GetProActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/thm_color_verywarm"
+            android:elevation="4dp"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/back_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:clickable="true"
+                android:src="@mipmap/left_white"/>
+            <com.android.instaprofilegrabber.RTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:text="حمایت از توسعه دهنده"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/payment_done"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/rounded_verysoft"
+                    android:layout_margin="20dp"
+                    android:padding="10dp"
+                    android:visibility="gone">
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/thm_color_verywarm"
+                        android:textSize="25sp"
+                        android:text="تبریــــــــــــــک!"/>
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/thm_color_verywarm"
+                        android:textSize="18sp"
+                        android:text="به جمع حامیان خوش آمدید"/>
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:id="@+id/payment_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/thm_color_verywarm"
+                        android:textSize="18sp"
+                        android:text="پرداخت شما با کد رهگیری [x] با موفقیت انجام شد"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/payment_options"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp">
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:text="این برنامه رو دوست دارم و می خوام از توسعه دهندَش حمایت کنم!"/>
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:id="@+id/get_pro_buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:clickable="true"
+                        android:background="@drawable/air_button"
+                        android:textSize="15sp"/>
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:text="عاشق این برنامه هستم و می خوام به طور ویژه از توسعه دهنده حمایت کنم؛ چون منتظر برنامه های بعدیش هستم!"/>
+
+                    <com.android.instaprofilegrabber.RTextView
+                        android:id="@+id/get_pro_buy_vip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:textAlignment="center"
+                        android:clickable="true"
+                        android:background="@drawable/air_button"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:visibility="gone">
+    </FrameLayout>
+</FrameLayout>

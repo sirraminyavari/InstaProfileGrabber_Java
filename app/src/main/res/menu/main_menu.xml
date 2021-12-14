@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <item android:id="@+id/buy"
+        android:icon="@mipmap/unlock"
+        android:title="buy" />
+    <item android:id="@+id/rate"
+        android:icon="@mipmap/unlock"
+        android:title="rate" />
+    <item android:id="@+id/share"
+        android:icon="@mipmap/unlock"
+        android:title="rate" />
+    <item android:id="@+id/login"
+        android:icon="@mipmap/unlock"
+        android:title="login" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    
+    <color name="thm_color">#b2d321</color>
+    <color name="thm_color_reverse">#4d2cde</color>
+    <color name="thm_color_verysoft">#eef7c9</color>
+    <color name="thm_color_soft">#e0f09d</color>
+    <color name="thm_color_warm">#9fbd1e</color>
+    <color name="thm_color_verywarm">#7a9117</color>
+    <color name="thm_color_warmborder">#9bae46</color>
+    <color name="thm_color_softborder">#c1eb09</color>
+    <color name="thm_color_actionbutton">#b2d321</color>
+</resources>

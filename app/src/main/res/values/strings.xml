@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Insta Profile Grabber</string>
+    <string name="app_name_apk">com.android.instaprofilegrabber</string>
+    <string name="app_folder">InstaGrabber</string>
+    <string name="image_folder">image</string>
+    <string name="video_folder">video</string>
+    <string name="insta_logout_url">https://instagram.com/accounts/logout</string>
+    <string name="mysociome_logout_url">http://mysociome.com/logout</string>
+    <string name="mysociome_login_url">http://mysociome.com/login?go=1</string>
+    <string name="mysociome_api_url">http://mysociome.com/ajax/api.ashx</string>
+    <string name="mysociome_log_app_launched">AppLaunched</string>
+    <string name="mysociome_log_profile_visit">ProfileVisit</string>
+    <string name="mysociome_log_bookmark">Bookmark</string>
+    <string name="mysociome_log_remove_bookmark">RemoveBookmark</string>
+
+    <string name="agent_id"></string>
+    <string name="market_name">کافه بازار</string>
+    <string name="rate_url">bazaar://details?id=[PackageName]</string>
+    <string name="share_url">https://cafebazaar.ir/app/[PackageName]</string>
+    <string name="payment_provider">Bazaar</string>
+    <string name="payment_intent_service">ir.cafebazaar.pardakht.InAppBillingService.BIND</string>
+    <string name="payment_package_name">com.farsitel.bazaar</string>
+    <string name="update_check_service">com.farsitel.bazaar.service.UpdateCheckService.BIND</string>
+
+    <string name="share_url_bazaar">https://cafebazaar.ir/app/[PackageName]</string>
+    <string name="share_url_myket">http://myket.ir/app/[PackageName]</string>
+    <string name="share_url_iranapps">http://iranapps.ir/app/[PackageName]</string>
+
+    <string name="rate_url_public">market://details?id=[PackageName]</string>
+    <string name="rate_url_bazaar">bazaar://details?id=[PackageName]</string>
+    <string name="rate_url_myket">myket://comment?id=[PackageName]</string>
+    <string name="rate_url_iranapps">iranapps://app/[PackageName]?a=comment&amp;r=5</string>
+
+    <string name="agent_majid_pourbarzagar">1511802691</string>
+    <string name="agent_fateme_rezaee">1312243445</string>
+
+    <string name="payment_intent_service_bazaar">ir.cafebazaar.pardakht.InAppBillingService.BIND</string>
+    <string name="payment_package_name_bazaar">com.farsitel.bazaar</string>
+    <string name="payment_intent_service_myket">ir.mservices.market.InAppBillingService.BIND</string>
+    <string name="payment_package_name_myket">ir.mservices.market</string>
+    <string name="payment_intent_service_iranapps">ir.tgbs.iranapps.billing.InAppBillingService.BIND</string>
+    <string name="payment_package_name_iranapps">ir.tgbs.android.iranapp</string>
+
+    <string name="title_activity_insta_login">InstaLoginActivity</string>
+
+    <string name="preference_file_key">MySocioMe</string>
+    <string name="preference_token_var_name">MySocioMe</string>
+    <string name="preference_rateme_dontshowagain">rateme_dontshowagain</string>
+    <string name="preference_rateme_launchcount">rateme_launchcount</string>
+    <string name="preference_rateme_datefirstlaunch">rateme_datefirstlaunch</string>
+    <string name="preference_getpro_datefirstlaunch">getpro_datefirstlaunch</string>
+    <string name="preference_getpro_datelastlaunch">getpro_datelastlaunch</string>
+    <string name="preference_login_datefirstlaunch">login_datefirstlaunch</string>
+    <string name="preference_login_datelastlaunch">login_datelastlaunch</string>
+    <string name="preference_is_pro_version">is_pro_version</string>
+    <string name="preference_recent_users">recent_users</string>
+    <string name="preference_purchase_data">purchase_data</string>
+    <string name="preference_agent_id">agent_id</string>
+    <string name="preference_to_be_logged">to_be_logged</string>
+    <string name="preference_last_log_time">last_log_time</string>
+
+    <string name="auto_dl_alert_never_show_again">auto_dl_alert_never_show_again</string>
+
+    <string name="watermark_postfix">_watermark</string>
+
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

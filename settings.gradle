@@ -1,0 +1,2 @@
+include ':app', ':finestwebview'
+project(':finestwebview').projectDir = new File('app/src/finestwebview')
